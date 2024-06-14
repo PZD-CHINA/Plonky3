@@ -1,0 +1,16 @@
+[package]
+name = "gen-poseidon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+p3-poseidon = { path = "../poseidon" }
+p3-field = { path = "../field" }
+p3-mds = { path = "../mds" }
+p3-symmetric = { path = "../symmetric" }
+p3-baby-bear = { path = "../baby-bear" }
+p3-goldilocks = { path = "../goldilocks" }
+p3-mersenne-31 = { path = "../mersenne-31" }
+rand = "0.8.5"

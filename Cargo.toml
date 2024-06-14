@@ -28,4 +28,5 @@ members = [
     "symmetric",
     "util",
     "uni-stark",
+    "gen-poseidon", "gen-poseidon2", "gen-rescue",
 ]
