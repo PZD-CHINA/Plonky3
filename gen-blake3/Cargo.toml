@@ -1,0 +1,15 @@
+[package]
+name = "gen-blake3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+p3-blake3 = { path = "../blake3" }
+p3-symmetric = { path = "../symmetric" }
+blake3 = "1.5"
+
+[features]
+neon = ["blake3/neon"]
+parallel = ["blake3/rayon"]
